@@ -69,7 +69,10 @@ module.exports = defineConfig({
       name: 'web-tests',
       testDir: './ajautotest/webapi/practicesoftwaretesting',
     },
-
+    {
+      name: 'swag',
+      testDir: './ajautotest/webapi/swaglabs',
+    },
 
     {
       name: 'chromium',
