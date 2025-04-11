@@ -71,7 +71,7 @@ module.exports = defineConfig({
     },
     {
       name: 'swag',
-      testDir: './ajautotest/webapi/swaglabs',
+      testDir: './ajautotest/webapi/saucelab',
     },
 
     {
