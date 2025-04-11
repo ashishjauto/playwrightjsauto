@@ -1,0 +1,20 @@
+Add test to automate web api through playwright
+
+
+Application under test
+https://practicesoftwaretesting.com/
+
+-->HomePage
+    --> Support this project Done
+    --> Privacy Policy Done
+-->Categories Done
+-->Contact Done
+-->SignIn Done
+   --> Register Account
+   --> ForgotPassword
+
+TBD
+--> Convert classes to POM
+--> Add cucumber if required.
+-->Parametrization for login and Register
+
