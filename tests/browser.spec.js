@@ -11,6 +11,10 @@ test('hass title', async ({ page }) => {
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
+  await page.waitForSelector('test',{timeout:500})
+
+
+
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
 
