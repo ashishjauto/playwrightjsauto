@@ -28,6 +28,11 @@ await loginTest.signIntoSauce();
 
 const screenshot_SauceLoginPage=await page.screenshot({ path: 'screenshots/screenshot_SauceLoginPage.png', fullPage: true });
 await testInfo.attach('screenshot', { body: screenshot_SauceLoginPage, contentType: 'image/png' });
+
+await expect(page).toHaveTitle('Swag Labs');
+
+
+
 });
 
 

@@ -28,6 +28,14 @@ class SauceLoginPage{
         await this.password.fill('secret_sauce');
     }
     
+    async userName_password(username,password){
+        await this.userName.fill(username);
+        await this.password.fill(password);
+    }
+
+
+    
+
     
     //made erro wants to see what happens
     
