@@ -13,7 +13,7 @@ const { defineConfig, devices } = require('@playwright/test');
 module.exports = defineConfig({
 
  
-
+ 
   testDir: './ajautotest/*',
   snapshotDir: './screenshots',
 
@@ -67,9 +67,12 @@ module.exports = defineConfig({
    
     {
       name: 'web-tests',
-      testDir: './ajautotest/webapi/practicesoftwaretesting',
+      testDir: './test_practicesoftwaretesting',
     },
-
+    {
+      name: 'swag',
+      testDir: './saucelabtest',
+    },
 
     {
       name: 'chromium',

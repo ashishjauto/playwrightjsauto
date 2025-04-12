@@ -1,0 +1,9 @@
+Swag Labs by Sauce Labs
+https://www.saucedemo.com/
+Login with multiple users .
+
+Dashboard
+    -->All Items
+    -->About
+    -->LogOut
+    -->Reset App State

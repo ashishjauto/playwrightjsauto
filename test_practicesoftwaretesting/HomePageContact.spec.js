@@ -27,4 +27,6 @@ test('HomePage_Contact_Validation',async({page},testInfo)=>{
   await testInfo.attach('screenshot', { body: screenshot_HomePage_Contanct, contentType: 'image/png' });
   expect(page).toHaveURL('https://practicesoftwaretesting.com/contact');
 
+  
+
 });
