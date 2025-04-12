@@ -1,5 +1,3 @@
-
-
 Swag Labs by Sauce Labs
 https://www.saucedemo.com/
 Login with multiple users .

@@ -1,3 +1,4 @@
+ 
 
 exports.SauceLoginPage =
 class SauceLoginPage{
@@ -5,8 +6,9 @@ class SauceLoginPage{
     constructor (page){
         this.page= page;
         this.signInbutton= page.locator("[value='Login']");
-            this.userName = page.locator("#user-name");
+        this.userName = page.locator("#user-name");
         this.password = page.locator("#password");
+       
     
     
     
@@ -33,4 +35,10 @@ class SauceLoginPage{
         await this.page.locator('[data-test="login-button"]').click();
     }
     
+    async getUserName(){
+        
+    }
+
+
+
     };
