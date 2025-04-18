@@ -34,7 +34,7 @@ module.exports = defineConfig({
 
 
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -64,7 +64,10 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
 
-   
+    {
+      name: 'rest',
+      testDir: './rest_reqresin_test',
+    },
     {
       name: 'web-tests',
       testDir: './test_practicesoftwaretesting',
@@ -73,6 +76,12 @@ module.exports = defineConfig({
       name: 'swag',
       testDir: './saucelabtest',
     },
+
+    {
+      name: 'restbook',
+      testDir: './restful-booker',
+    },
+
 
     {
       name: 'chromium',

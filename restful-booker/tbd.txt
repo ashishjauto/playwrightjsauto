@@ -1,0 +1,12 @@
+
+
+Add POM structure and send to test data ..
+
+Add with playwright dont check with http , 
+
+
+now how can we delete bunch of test and then add to automation 
+
+step1 get authorization code from 
+step2 get all the bookingids
+step3 pass it to delete 
